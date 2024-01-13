@@ -1,0 +1,75 @@
+/* work sens font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* root variables */
+:root{
+    --white-color: #FFF;
+    --banner-background:rgba(255, 144, 14, 0.10);
+    --footer-background: #FFF4E7;
+    --font-family: 'Work Sans', sans-serif;
+    --primary-color: #FF900E;
+    --heading-color: #131313;
+    --text-color: #727272;
+    --footer-text-color: #424242;
+    --footer-text-size: 1.25rem;
+}
+
+/* basic setup */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif; 
+    font-size: 1rem;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 4rem;   /* 64px */
+}
+
+h2{
+    font-size: 2.8rem;  /* 45px */
+}
+
+h3{
+    font-size: 1.25rem;  /* 20px */
+}
+
+a{
+    text-decoration: none;
+}
+
+/* header-section start */
+.header-section{
+    background-color: var(--banner-background);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 46px;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+nav > ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: var(--footer-text-color);
+}
