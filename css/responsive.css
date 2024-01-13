@@ -1,0 +1,62 @@
+/* X-tra small devices */
+@media screen and (max-width: 575.98px){
+    nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+    nav > ul{
+        gap: 30px;
+    }
+    .banner-section .banner-top{
+        padding: 10px;
+    }
+    .banner-bottom img{
+        padding: 0 10px;
+    }
+}
+
+/* small devices  */
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .banner-section .banner-top{
+        padding: 10px;
+    }
+    .banner-bottom img{
+        padding: 0 10px;
+    }
+}
+
+/* medium devices  */
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    nav{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .banner-section .banner-top{
+        padding: 15px;
+    }
+    .banner-bottom img{
+        padding: 0 15px;
+    }
+}
+
+/* Large devices  */
+@media screen and (min-width: 992px) and (max-width: 1199.98px){
+    nav{
+        padding: 0 10px;
+    }
+    .banner-section .banner-top{
+        padding: 15px;
+    }
+    .banner-bottom img{
+        padding: 0 15px;
+    }
+}
+
+/* X-Large devices  */
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+
+}
