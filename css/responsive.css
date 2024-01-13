@@ -13,6 +13,13 @@
     .banner-bottom img{
         padding: 0 10px;
     }
+    .team-box{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .team-image-box{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* small devices  */
@@ -27,6 +34,13 @@
     .banner-bottom img{
         padding: 0 10px;
     }
+    .team-box{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .team-image-box{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* medium devices  */
@@ -40,6 +54,13 @@
     }
     .banner-bottom img{
         padding: 0 15px;
+    }
+    .team-box{
+        flex-direction: column;
+        padding: 0 10px;
+    }
+    .team-image-box{
+        grid-template-rows: 1fr;
     }
 }
 
